@@ -6,4 +6,9 @@
     <access origin="*"/>
     <preference name="fullscreen" value="true"/>
     <preference name="webviewbounce" value="true"/>
+    <feature name="SplashScreen">
+    <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+    </feature>
+    <preference name="splashscreen" value="splash" />
+    <preference name="splashScreenDelay" value="5000" />
 </widget>
