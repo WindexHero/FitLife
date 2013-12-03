@@ -9,8 +9,8 @@ var moveCounter = 0;
 function startWatch() 
 {
 
-    // Update acceleration every 1 second
-    var options = { frequency: 1000 };
+    // Update acceleration every half-second
+    var options = { frequency: 500 };
 
     watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, options);
 }
@@ -60,7 +60,7 @@ function onSuccess(acceleration)
         deltaY = Math.abs(acceleration.y-lastY);
         deltaZ = Math.abs(acceleration.z-lastZ);
     
-    if(deltaX + deltaY + deltaZ > 2) 
+    if(deltaX + deltaY + deltaZ > 3 /*Controls accelerometer sensitivity*/) 
     {
         moveCounter++;
     }

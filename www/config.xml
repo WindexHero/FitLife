@@ -2,7 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.coolappz.FitLife" version="1.0.0">
     <name>FitLife</name>
     <description>Cordova Application</description>
-    <author email="info@com.coolappz" href="http://www.coolappz.com">android-dev</author>
+    <author email="k_lane2@fanshaweonline.ca" href="http://www.coolappz.com">Team Headhunters</author>
     <access origin="*"/>
     <preference name="fullscreen" value="true"/>
     <preference name="webviewbounce" value="true"/>
